@@ -1,0 +1,67 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/roomLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Length"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/roomWidth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Room Width"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/flooringCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Flooring Cost (per unit)"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/installationCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Installation Cost (per unit)"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <Switch
+        android:id="@+id/unitToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:text="Use Square Meters?" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Results will appear here" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About" />
+</LinearLayout>
